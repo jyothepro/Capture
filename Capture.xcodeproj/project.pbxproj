@@ -22,14 +22,14 @@
 		577B3C2514C20F6D00F39F34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		577B3C2714C20F6D00F39F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		577B3C2914C20F6D00F39F34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		577B3C2D14C20F6D00F39F34 /* Capture-Info.plist */ = {isa = PBXFileReference; path = "Capture-Info.plist"; sourceTree = "<group>"; };
+		577B3C2D14C20F6D00F39F34 /* Capture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Capture-Info.plist"; sourceTree = "<group>"; };
 		577B3C2F14C20F6D00F39F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		577B3C3114C20F6D00F39F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		577B3C3314C20F6D00F39F34 /* Capture-Prefix.pch */ = {isa = PBXFileReference; path = "Capture-Prefix.pch"; sourceTree = "<group>"; };
-		577B3C3414C20F6D00F39F34 /* CaptureAppDelegate.h */ = {isa = PBXFileReference; path = CaptureAppDelegate.h; sourceTree = "<group>"; };
+		577B3C3314C20F6D00F39F34 /* Capture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Capture-Prefix.pch"; sourceTree = "<group>"; };
+		577B3C3414C20F6D00F39F34 /* CaptureAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureAppDelegate.h; sourceTree = "<group>"; };
 		577B3C3514C20F6D00F39F34 /* CaptureAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureAppDelegate.m; sourceTree = "<group>"; };
 		577B3C3814C20F6D00F39F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		577B3C3A14C20F6D00F39F34 /* CaptureViewController.h */ = {isa = PBXFileReference; path = CaptureViewController.h; sourceTree = "<group>"; };
+		577B3C3A14C20F6D00F39F34 /* CaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
 		577B3C3B14C20F6D00F39F34 /* CaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
