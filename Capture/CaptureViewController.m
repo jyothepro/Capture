@@ -9,6 +9,7 @@
 #import "CaptureViewController.h"
 
 @implementation CaptureViewController
+@synthesize webView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,10 +23,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com"]]];
 }
 
 - (void)viewDidUnload
 {
+    [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
