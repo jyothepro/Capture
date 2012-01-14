@@ -10,5 +10,6 @@
 
 @interface CaptureViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)captureScreen:(id)sender;
 
 @end

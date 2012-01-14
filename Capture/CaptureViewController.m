@@ -60,4 +60,6 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)captureScreen:(id)sender {
+}
 @end
