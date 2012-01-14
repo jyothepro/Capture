@@ -7,6 +7,7 @@
 //
 
 #import "CaptureViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation CaptureViewController
 @synthesize webView;
@@ -62,12 +63,11 @@
 
 - (IBAction)captureScreen:(id)sender {
     NSLog(@"capture");
-    /*
+    
     UIGraphicsBeginImageContext(webView.frame.size);
 	[self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
 	UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
 	UIGraphicsEndImageContext();
 	UIImageWriteToSavedPhotosAlbum(viewImage, nil, nil, nil);
-     */
 }
 @end
